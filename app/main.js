@@ -157,7 +157,7 @@ function collectRequestData(request, callback) {
     -res contiene la respuesta del servidor (RESPONSE)
 
 ¿La instrucción .listen(number) puede fallar? Justifique.
-    Si, ya que si se le manda un puerto distinto al cual debe escuchar fallara.
+    Si, ya que si se le manda un puerto distinto al cual debe escuchar o si es un puerto que se ha levantado anteriormente fallara.
 
 ¿Por qué es útil la función "collectRequestData(...)"?
     Es donde esta contenida la informacion que se le da al usuario como respuesta.
